@@ -1,0 +1,376 @@
+/* Inicio CSS de login */
+.login-body{
+   
+   position: absolute;
+   background: url(https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2dyYW1hY2lvbnxlbnwwfHwwfHw%3D&w=1000&q=80);
+   color: rgb(255, 255, 255);
+   width: 1000px;
+   font-family: 'Signika', sans-serif;
+}
+
+#login-title{
+   display: block;
+   margin-block-end: 8px;
+}
+
+.lista_acceso{
+   display: flexbox;
+   list-style: none;
+   padding: 0;
+   margin: 0%;
+   text-align: center;
+   justify-content: space-between;
+}
+
+#form-login{
+   border-style:groove;
+   display: inline-block;
+   background: #2d4285;
+   border-radius: 10px;
+   border-color: #d1c5c5;
+   opacity: 95%;
+   margin-left: 400px;
+   margin-top: 200px;
+   text-align: center;
+}
+
+.boton{
+   color: #0099CC;
+   background: transparent;
+   border: 2px solid #0099CC;
+   border-radius: 6px;
+   border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+}
+.boton:hover {
+   background-color: #008CBA;
+   color: white;
+}
+
+.datos-acceso{
+   display: inline-block;
+}
+
+.leyenda{
+   display: inline-block;
+   font-family: 'Signika', sans-serif;
+}
+
+.datos-ingreso{
+   display:contents;
+   margin-left: 15px;
+}
+   
+
+/* Fin CSS de login */
+
+
+body{
+   background-image: url(https://img.freepik.com/fotos-premium/fondo-textura-marmol-blanco-textura-marmol-abstracta-patrones-naturales-diseno_41389-491.jpg?w=2000);
+   position: absolute;
+   margin: 0;
+   width: 100%;
+   height: auto;
+   font-family: 'Signika', sans-serif;
+   font-size: 20px;
+}
+
+header{
+   
+   background-color:#0F4A75;
+   font-family: 'Signika', sans-serif;
+   font-size: 20px;
+   top: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   position: absolute;
+}
+
+
+.name{
+   display: inline-block;
+   font-size: 70px;
+   font-style: oblique;
+   color: #ffffff;
+   text-shadow: #000000 2px 4px;
+   text-decoration:white;
+   transition: all 0.5s;
+}
+
+.name:hover{
+   transform: scale(1.2);
+   transition: all 0.5s linear;
+}
+.nav-contaniner{
+   display: flex;
+   justify-content: space-between;
+   align-items:center ;
+}
+
+.navigation ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   letter-spacing: 1px;
+   
+}
+
+.navigation ul li{
+   display: inline-block;
+  
+}
+
+.navigation ul li a{
+   display: block;
+   margin-left: 15px;
+   padding: 0.5rem 1rem;
+   transition: all 0.4s linear;
+   border-radius: 5px;
+   color: #ffffff;
+}
+
+.navigation ul li a:hover{
+   background: #ccc;
+   transform: scale(1.2);
+   color: #0F4A75;
+}
+.navigation-2{
+   display:contents;
+   margin-left: 15px;
+   padding: o.5rem 1rem;
+   transition: all 0.4s linear;
+   border-radius: 5px;
+}
+
+#foto_perfil{
+   width: 180px; 
+   height: auto; 
+   margin-left: 20px;
+   border-radius: 90%; 
+   border-color: #000000 2px;
+   transition: all 0.4s linear;
+}
+
+#foto_perfil:hover {
+   transform: scale(1.2);
+   transition: all 0.4s linear;
+    border: #000000 4px;
+    box-shadow: #000000 5px 1px;
+    }
+
+.listas{
+   padding-top: 12rem;
+   width: 85%;
+   max-width: 850px;
+   margin: 0 auto;
+   list-style: none;
+}
+.titulo_lista{
+   font-size: 22px;
+   font-style: italic;
+   text-decoration:underline;
+}
+
+.url_sitios{
+   text-decoration:none;
+   color:#2d4285;
+   transition: all 0.4s linear;
+}
+
+.url_sitios:hover{
+   font-size: 22px;
+   transition: all 0.4s linear;
+   text-decoration:underline;
+}
+
+.ir-arriba {
+   display:inline-block;
+	padding:10px;
+   left: 0px;
+	background:#0F4A75;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:82px;
+   
+}
+
+  .whatsapp-btn {
+    display:scroll; position:fixed; z-index:1000;
+    bottom:75px;
+    right:10px; 
+    width:70px;
+    }
+
+    /* Diseño responsive footer [ESTOS VALORES SON PARA MOBILE] */ 
+   
+#contentFooter { 
+ overflow:auto; 
+   display: flex; 
+flex-flow: column-reverse;
+ width: 100%;
+ background: #1f1f1f;
+ font-family: 'Signika', sans-serif;;
+text-align: center;
+font-size: 14px !important;
+} 
+   #contentFooter a {
+       color: #ffffff;
+       text-decoration: none;
+       vertical-align: middle !important;
+   }
+
+#leftFooter, #rightFooter { 
+  
+ margin:0px; 
+ padding: 0.8em;
+ color: #ffffff;
+ 
+} 
+    
+#leftFooter  
+   { 
+       float:none;  
+       text-align: center; 
+       background-color: #000000;
+   }
+   
+#rightFooter
+   { 
+       float:none; 
+       text-align: center;
+       vertical-align: middle !important; 
+   } 
+
+   
+/* Diseño responsive footer [ESTOS VALORES SON PARA DESKTOP] */ 
+   
+@media screen and (min-width: 800px) {
+ 
+#contentFooter { 
+ overflow:auto; 
+ width: 100%;
+ display: inline-block;
+ background: #1f1f1f;
+ font-family: 'Signika', sans-serif;;
+ font-size: 14px !important;
+ vertical-align: middle !important;
+} 
+#contentFooter a 
+   {
+ color: #ffffff;
+ text-decoration: none;
+   }
+
+#leftFooter, #rightFooter
+{ 
+ width: 40%; 
+ margin:0px; 
+ padding: 1em;
+ color: #ffffff;
+} 
+
+#leftFooter 
+{ 
+   float:left;  
+   text-align: left; 
+   padding: 32px; 
+   background-color: #1f1f1f;
+}
+   
+#rightFooter 
+{    
+   float:right; 
+   text-align: 
+   right; 
+   padding-right: 30px; 
+} 
+
+.rightFooter_img{
+   vertical-align: middle;
+}
+
+
+}
+/* galeria*/
+.header_galery{
+   
+   background-color:#0F4A75;
+   font-family: 'Signika', sans-serif;
+   font-size: 20px;
+   top: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   position: relative;
+}
+
+
+.name_galery{
+   display: inline-block;
+   font-size: 70px;
+   font-style: oblique;
+   color: #ffffff;
+   text-shadow: #000000 2px 4px;
+   text-decoration:white;
+   padding-right: 300px;
+   transition: all 0.5s;
+}
+
+.name_galery:hover{
+   transform: scale(1.2);
+   transition: all 0.5s linear;
+}
+
+#titulo_galery{
+   text-align: center;
+}
+
+ .galeria {
+   height: 400px;
+   width: auto;
+   margin:1em auto;
+   position: relative;  
+   padding-block-end: 30px;
+ }
+ 
+ .galeria img {
+   position: absolute;
+   top: 60px;
+   left: 400px;
+   opacity: 0;
+   transition: opacity 2s;
+ }
+ 
+ .galeria input[type=radio] {
+   position: relative;
+   bottom: -400px;
+   left: 600px;
+ }
+ 
+ .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+   opacity: 1;
+ }
+ 
+ .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+   opacity: 1;
+ }
+ 
+ .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+   opacity: 1;
+ }
+ 
+ .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+   opacity: 1;
+ }
