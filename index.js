@@ -8,7 +8,7 @@ function login()
  
 	if(user=="vista" && pass=="vista")
 	{
-		window.location="index.html";
+		window.location="home.html";
 	}
 	else{
 		alert("Datos Incorrectos");
