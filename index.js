@@ -20,7 +20,7 @@ function login()
 
 $(document).ready(function(){
 
-	$('.ir-arriba').click(function(){
+	$('.bi').click(function(){
 		$('body, html').animate({
 			scrollTop: '0px'
 		}, 300);
@@ -28,9 +28,9 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
 		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
+			$('.bi').slideDown(300);
 		} else {
-			$('.ir-arriba').slideUp(300);
+			$('.bi').slideUp(300);
 		}
 	});
 
