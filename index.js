@@ -1,3 +1,8 @@
+function entrar()
+{
+window.location="home.html";
+}
+
 function login_edit()
 	{
 
