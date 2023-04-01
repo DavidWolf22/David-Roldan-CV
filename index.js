@@ -1,22 +1,4 @@
-//login
-function login()
-	{
-
-	let user=document.getElementById("usuario").value;
-	let pass=document.getElementById("clave").value;
-	
- 
-	if(user=="vista" && pass=="vista")
-	{
-		window.location="home.html";
-	}
-	else{
-		alert("Datos Incorrectos");
-	}
-
-	}
-
-	function login_edit()
+function login_edit()
 	{
 
 	let user=document.getElementById("usuario").value;
